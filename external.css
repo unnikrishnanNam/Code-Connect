@@ -142,6 +142,10 @@ button:hover::before {
   background: radial-gradient(#fff, #a8a8a8);
 }
 
+.blob-baby {
+  background: radial-gradient(#eee34f, #eee5e5);
+}
+
 .circle:nth-child(1) {
   top: -55px;
   left: -55px;
@@ -179,5 +183,5 @@ button:hover::before {
   /* background: #000; */
   color: whitesmoke;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.7em;
 }
