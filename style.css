@@ -296,7 +296,7 @@ nav {
     background-color: white;
   }
 
-  /* Show the menu when the hamburger icon is clicked */
+  /* will show the menu when the hamburger icon is clicked */
   input[type="checkbox"] {
     display: none;
   }
@@ -319,7 +319,7 @@ nav {
   
     .terminal {
       width: 100%;
-      max-width: 300px; /* Adjust the max-width as per your preference */
+      max-width: 300px; 
       margin: 0 auto;
     }
   
@@ -332,12 +332,12 @@ nav {
     }
   
     .col {
-      width: 45%; /* Adjust the width as per your preference */
+      width: 45%; 
       margin-bottom: 20px;
     }
 }
 
-/* Add media query for large devices (e.g., desktops) */
+/* Adding media query for large devices) */
 @media screen and (min-width: 992px) {
   .row-cols-md-3 {
     flex-wrap: nowrap;
@@ -345,7 +345,7 @@ nav {
 
   .col {
     width: auto;
-    flex: 1; /* Equal-width columns */
+    flex: 1;
     margin-bottom: 0;
   }
 }
