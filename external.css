@@ -91,11 +91,13 @@ button:hover::before {
   width: 250%;
 }
 
-/*  */
+
 
 .card {
-  width: 250px;
-  height: 400px;
+  width: 650px;
+  height: 500px;
+  padding:40px;
+  margin:30px;
   transition: all 0.2s;
   position: relative;
   cursor: pointer;
