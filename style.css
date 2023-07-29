@@ -18,15 +18,6 @@
 
 body {
   background-color: var(--background);
-  background-image: radial-gradient(
-    650px circle at 0% 0%,
-    hsla(115,41%,35%)15%,
-    hsla(115,41%,30%)35%,
-    hsla(115,41%,20%)75%,
-    rgb(115, 105, 170)80%,
-    transparent 100%
-  
-  );
 }
 
 section {
@@ -46,7 +37,7 @@ section {
     linear-gradient(90deg, #0d122430, #0d122430);
   opacity: 1;
   background-size: cover;
-  animation: heartbeat 1.4s infinite;
+  /* animation: heartbeat 1.4s infinite; */
 }
 
 @keyframes heartbeat {
@@ -167,6 +158,7 @@ nav {
 }
 
 .content-area {
+  margin-top:60px;
   padding: 0 5%;
 }
 
@@ -279,6 +271,8 @@ nav {
   padding-left: 100px;
 }
 .light-glass {
+  width:800px;
+  height:200px;
   background-image: url("./assets/gradientTrans.png");
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px);
@@ -294,6 +288,166 @@ nav {
   z-index:10001;
   display:none; 
 
+}
+
+/* ================ Form designing ============ */
+
+.form-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* min-height: 100vh; */
+  width:700px;
+  height:600px;
+  
+  background-image: url("./assets/gradientTrans.png");
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.form-holder .form-content {
+position: relative;
+text-align: center;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-align-items: center;
+align-items: center;
+padding: 60px;
+}
+
+.form-content .form-items {
+border: 3px solid #fff;
+padding: 40px;
+display: inline-block;
+width: 100%;
+min-width: 540px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+text-align: left;
+-webkit-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+
+.form-content h3 {
+color: #fff;
+text-align: left;
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+margin-bottom: 30px;
+}
+
+.form-content p {
+color: #fff;
+text-align: left;
+font-size: 17px;
+font-weight: 300;
+line-height: 20px;
+margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+color: #fff;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+width: 100%;
+padding: 9px 20px;
+text-align: left;
+border: 0;
+outline: 0;
+border-radius: 6px;
+background-color: #fff;
+font-size: 15px;
+font-weight: 300;
+color: #8D8D8D;
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+margin-top: 16px;
+}
+
+
+.btn-primary{
+background-color: #6C757D;
+outline: none;
+border: 0px;
+ box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+background-color: #495056;
+outline: none !important;
+border: none !important;
+ box-shadow: none;
+}
+
+.form-content textarea {
+position: static !important;
+width: 100%;
+padding: 8px 20px;
+border-radius: 6px;
+text-align: left;
+background-color: #fff;
+border: 0;
+font-size: 15px;
+font-weight: 300;
+color: #8D8D8D;
+outline: none;
+resize: none;
+height: 120px;
+-webkit-transition: none;
+transition: none;
+margin-bottom: 14px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+border: 0;
+background-color: #ebeff8;
+color: #8D8D8D;
+}
+
+.mv-up{
+margin-top: -9px !important;
+margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+color: #ff606e;
+}
+
+.valid-feedback{
+color: #2acc80;
+}
+
+
+ @media (max-width: 767px) {
+  .header .row {
+    flex-wrap: wrap;
+  }
+
+  .header .col-md-6 {
+    flex-basis: 100%;
+    max-width: 100%;
+    height: 500px;
+    /* background-color: #16f8b6; */
+
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 1280px){
@@ -343,7 +497,8 @@ nav {
 
   }
 }
-/*=============== for small device =========== */
+
+/* =============== for small device =========== */
 
 /* @media screen and (max-width: 768px) {
   .nav-link-group {
@@ -408,6 +563,8 @@ nav {
 
 
 
+ /* profile */
 
+ 
 
 
