@@ -6,45 +6,7 @@
   --red: #ed6a5e;
   --yellow: #ff9f24;
 }
-
-.logo-hover {
-  height: 60px;
-  width: min-content;
-  background-image: linear-gradient(
-    163deg,
-    var(--primary) 0%,
-    var(--secondary) 100%
-  );
-  border-radius: 10px;
-  transition: all 0.3s;
-}
-
-.logo {
-  border-radius: 10px;
-  background-color: #fff;
-
-  height: 60px;
-  width: min-content;
-  padding: 14px;
-
-  font-size: 28px;
-  font-weight: bold;
-  color: var(--background);
-  letter-spacing: 2px;
-
-  transition: all 0.2s;
-}
-
-.logo:hover {
-  transform: scale(0.98);
-  border-radius: 10px;
-}
-
-.logo-hover:hover {
-  box-shadow: 0px 0px 30px 1px rgba(234, 0, 255, 0.3);
-}
-
-.button {
+.button-1{
   padding: 1em 2em;
   border: none;
   border-radius: 5px;
@@ -61,7 +23,9 @@
   outline: 2px solid var(--primary);
 }
 
-.button:hover {
+
+.button-1:hover {
+
   color: #ffffff;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -71,7 +35,8 @@
   box-shadow: 4px 5px 17px -4px #a57afb;
 }
 
-.button::before {
+.button-1::before {
+
   content: "";
   position: absolute;
   left: -50px;
@@ -87,20 +52,21 @@
   transition: width 1000ms;
 }
 
-.button:hover::before {
+.button-1:hover::before {
   width: 250%;
 }
 
-.card {
+/* .card{
   width: 310px;
-  height: 500px;
-  /* padding: 40px; */
-  margin: 2px;
-  transition: all 0.2s;
+  height: 650px;
+  /* padding:40px; */
+  /* margin:2px;
+    transition: all 0.2s;
+
   position: relative;
   cursor: pointer;
   background-color: transparent;
-}
+} */ */
 
 .card-inner {
   width: inherit;
