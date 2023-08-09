@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- // links for using bootstrap // -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,12 +24,16 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
+    <!--  // links for connecting the css files to give styling to the website // -->
     <link rel="stylesheet" href="external.css" />
     <link rel="stylesheet" href="style.css" />
 
     <title>CodeConnect</title>
   </head>
   <body>
+
+    <!-- // navbar with logo, navbar-links and  hamburger button for smaller devices // -->
     <nav>
       <div class="logo-container">
         <div class="logo-hover">
@@ -38,18 +44,21 @@
           </div>
         </div>
       </div>
+       <!--  // All the navbar links // -->
       <div class="nav-link-group">
         <a href="http://">Home</a>
         <a href="http://">About Us</a>
         <a href="course.html">Courses</a>
         <a href="cotactUs.html">Contact Us</a>
       </div>
-      <div class="bx bx-menu" id="menu-list">  
-
-      </div>
+      <!-- // Hamburger icon for the menu list // -->
       <div class="bx bx-menu" id="menu-list"></div>
     </nav>
+
+    <!-- // first section of the landing page which includes , bold texts, image containing box and a get started button // -->
     <section class="header bg-images row">
+
+       <!-- // this is bold text with one para of what code connect does // -->
       <div class="col-md-6 col-lg-6 content-area">
         <p class="heading-text">
           Become the <span class="green">software engineer</span> that companies
@@ -62,19 +71,24 @@
           we've got something incredible in store for you.
         </p>
        
+        <!-- // this is the button where any one can click to get start // -->
         <button class="button-1">Get Started</button>
 
       </div>
+
+      <!-- /// the following div is for the container which contains an image with three buttons on the top /// -->
       <div class="col-md-6 col-lg-6 image-area overflow-auto">
         <div class="terminal">
           <div class="terminal-inside">
             <div class="taskbar">
+              <!-- // this is for the red, green and yellow buttons on the top of the parent div // -->
               <div class="taskbar-btn-container">
                 <div class="taskbar-btn taskbar-btn-red"></div>
                 <div class="taskbar-btn taskbar-btn-yellow"></div>
                 <div class="taskbar-btn taskbar-btn-green"></div>
               </div>
             </div>
+            <!-- // image section // -->
             <img
               src="https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80"
               alt="photo-1564865878688-9a244444042a"
@@ -438,112 +452,9 @@
 </div>
 <br>
     
- <!--=================== content page ================ -->
- 
-
-
-
- 
- <!-- <div class="light-glass-green">
-  <section id="devops">
-    <div class="content m-5">
-      <p class="heading-text">
-        <span style="color: #53ef7d;">DevOps</span>
-      <p class="" style="color: white;font-size:40px; ">
-
-        DevOps is the combination of practices and tools
-        designed to increase an organization's ability to deliver quality applications and services faster than
-        traditional
-        software development processes.
-      </p>
-      <img src="" alt="nothing" style="height: auto;
-
-      max-width: 100%;" />
-      </p>
-
-    </div>
-    <br />
-    <div class="light-glass-main">
-      <section id="backend">
-        <div class="content m-5">
-          <p class="heading-text">
-            <span style="color: #76bbff">Back-end Development</span>
-          </p>
-          <p style="color: white; font-size: 40px">
-            Back end development is the process of creating the server-side
-            logic for websites and web applications. It includes tasks such as
-            writing code to interact with databases, creating APIs, and managing
-            server resources. Back end developers use a variety of programming
-            languages and technologies, such as Python, Java, and PHP.
-          </p>
-          <img src="" alt="nothing" style="height: auto; max-width: 100%" />
-        </div>
-      </section>
-    </div>
-    <br />
-    <div class="light-glass-main">
-      <section id="web">
-        <div class="content m-5">
-          <p class="heading-text">
-            <span style="color: #716e6e">Web Security</span>
-          </p>
-          <p style="color: white; font-size: 40px">
-            Web security is the practice of protecting websites and web
-            applications from unauthorized access, data breaches, and other
-            malicious attacks. It is a critical aspect of cybersecurity, as
-            web-based applications are increasingly being used to store and
-            process sensitive data
-          </p>
-          <img src="" alt="nothing" style="height: auto; max-width: 100%" />
-        </div>
-      </section>
-    </div>
-    <br />
-    <div class="light-glass-main">
-      <section id="full">
-        <div class="content m-5">
-          <p class="heading-text">
-            <span style="color: #8244ff">Full-stack Development</span>
-          </p>
-          <p style="color: white; font-size: 40px">
-            Front-end development refers to the development of the user
-            interface of a web application. This includes tasks such as creating
-            HTML, CSS, and JavaScript code. Back-end development refers to the
-            development of the application logic of a web application. This
-            includes tasks such as writing code to interact with databases,
-            creating APIs, and managing server resources.
-          </p>
-          <img src="" alt="nothing" style="height: auto; max-width: 100%" />
-        </div>
-      </section>
-    </div>
-    <br />
-    <div class="light-glass-main">
-      <section id="front">
-        <div class="content m-5">
-          <p class="heading-text">
-            <span style="color: #f926ae">Front-end Development</span>
-          </p>
-          <p style="color: white; font-size: 40px">
-            Front end development is the process of creating the graphical user
-            interface (GUI) of a website or web application. It is the part of
-            web development that users interact with directly. Front end
-            developers use HTML, CSS, and JavaScript to create the look and feel
-            of a website or web application. They also use frameworks and
-            libraries to speed up the development process and make it easier to
-            create complex features.
-          </p>
-          <img src="" alt="nothing" style="height: auto; max-width: 100%" />
-        </div>
-      </section>
-    </div>
-  </section>
-
-</div> -->
-
 
      <!-- Form for interested registration -->
-   <!-- <div class="form_background bg-images ">
+   <div class="form_background bg-images ">
     <div class="form-body   d-flex justify-content-center">
       <div class="row">
 
@@ -637,7 +548,7 @@
         </div>
       </div>
     </div>
-   </div> -->
+   </div>
 
    <!-- ==================== footer design using bootstrap ============== -->
 
@@ -716,7 +627,7 @@
         <!-- Section: Social media -->
         <!-- Section: Links  -->
         <section class="">
-          <div class="container text-center text-md-start mt-5">
+          <div class="container text-center text-md-start mt-5" >
             <!-- Grid row -->
             <div class="row mt-3">
               <!-- Grid column -->
