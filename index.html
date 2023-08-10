@@ -29,20 +29,19 @@
   </head>
   <body>
     <nav>
-      <div class="logo-container">
+      <a href="index.html" style="text-decoration: none;"><div class="logo-container">
         <div class="logo-hover">
           <div class="logo">
-            <span class="pink">&lt;</span>CodeConnect/<span class="purple"
-              >&gt;</span
+            <span class="pink">&lt;</span>CodeConnect/<span class="purple">&gt;</span
             >
           </div>
         </div>
-      </div>
+      </div></a>
       <div class="nav-link-group">
         <a href="index.html">Home</a>
         <a href="aboutUs.html">About Us</a>
-        <a href="courses.html">Courses</a>
-        <a href="cotactUs.html">Contact Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#contactUs">Contact Us</a>
       </div>
       <!-- <div class="bx bx-menu" id="menu-list">   -->
 
@@ -91,16 +90,18 @@
     <div  class="container mt-5 m-auto m-10 overflow-hidden " >
 
       =================== Course options ================
-    <div class="light-glass m-10">
+    <div class="light-glass m-10" id="courses">
       <section>
         <div class="content m-5">
           <p class="heading-text"><span class="red">Courses</span></p>
           <p style="color: white; font-size: 40px">
-            <a href="#dev-ops" target="_blank"><button data-text="Awesome" class="hover-button">
-                <span class="actual-text">&nbsp;DevOps&nbsp;</span>
-                <span class="hover-text" aria-hidden="true"
-                  >&nbsp;DevOps&nbsp;</span>
-              </button></a>
+            <a href="#front-end"><button data-text="Awesome" class="hover-button">
+              <span class="actual-text"
+                >&nbsp;Front&nbsp;end&nbsp;Development&nbsp;</span
+              >
+              <span class="hover-text" aria-hidden="true"
+                >&nbsp;Front&nbsp;end&nbsp;Development&nbsp;</span>
+            </button></a>
             <br />
             <a href="#back-end"><button data-text="Awesome" class="hover-button">
                 <span class="actual-text"
@@ -111,27 +112,24 @@
                 >
               </button></a
             ><br />
+            <a href="#full-stack"><button data-text="Awesome" class="hover-button">
+              <span class="actual-text">&nbsp;Full&nbsp;Stack&nbsp;</span>
+              <span class="hover-text" aria-hidden="true"
+                >&nbsp;Full&nbsp;Stack&nbsp;</span
+              ></button></a>  
+            <br />
+            <a href="#dev-ops"><button data-text="Awesome" class="hover-button">
+              <span class="actual-text">&nbsp;DevOps&nbsp;</span>
+              <span class="hover-text" aria-hidden="true"
+                >&nbsp;DevOps&nbsp;</span>
+            </button></a>
+            <br />
             <a href="#web-sec" target=""><button data-text="Awesome" class="hover-button">
                 <span class="actual-text">&nbsp;Web&nbsp;Security&nbsp;</span>
                 <span class="hover-text" aria-hidden="true"
                   >&nbsp;Web&nbsp;Security&nbsp;</span
                 >
-              </button></a
-            ><br />
-            <a href="#full-stack"><button data-text="Awesome" class="hover-button">
-              <span class="actual-text">&nbsp;Full&nbsp;Stack&nbsp;</span>
-              <span class="hover-text" aria-hidden="true"
-                >&nbsp;Full&nbsp;Stack&nbsp;</span
-              ></button></a>
-            <br />
-            <a href="#front-end"><button data-text="Awesome" class="hover-button">
-              <span class="actual-text"
-                >&nbsp;Front&nbsp;end&nbsp;Development&nbsp;</span
-              >
-              <span class="hover-text" aria-hidden="true"
-                >&nbsp;Front&nbsp;end&nbsp;Development&nbsp;</span
-              >
-            </button></a>
+              </button></a>   
           </p>
         </div>
       </section>
@@ -153,7 +151,7 @@
                     to build the visual and interactive elements that users see and interact with in their browsers. HTML provides the structure
                     of the webpage, CSS handles the styling and layout, and JavaScript adds interactivity and dynamic behavior to the site.
                  </p>
-                 <button class="btn btn-outline-light">Checkout the course</button>
+                 <a href="https://www.udemy.com/course/get-started-with-html-css-the-frontend-developer-bootcamp/"><button class="btn btn-outline-light">Checkout the course</button></a>
              </div>
          </div>
 
@@ -171,8 +169,7 @@
                            potential vulnerabilities.
                          
                   </p>
-                 <button class="btn btn-outline-dark ">Checkout the course</button>
-
+                 <a href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"><button class="btn btn-outline-dark ">Checkout the course</button></a>
              </div>
              <div class="col-md-4 order-md-2 order-1">
                  <img src="assets/backend.png" alt="" class="img-fluid"  style="width:480px; height: 280px;">
@@ -199,7 +196,7 @@
                       encouraging cross-functional teamwork, 
                      DevOps enhances the overall development and delivery of applications and services.
                  </p>
-                 <button class="btn btn-outline-light">Checkout the course</button>
+                 <a href="https://www.udemy.com/course/the-devops-essentials/"><button class="btn btn-outline-light">Checkout the course</button></a>
 
              </div>
          </div>
@@ -207,7 +204,7 @@
      </div>
 
 
-     <div class="card  mb-4 p-5 bg-body-secondary" id="full-stack">
+      <div class="card  mb-4 p-5 bg-body-secondary" id="full-stack">
          <div class="row mx-1 my-2">
              <div class="col-md-8 order-md-1 order-2">
 
@@ -218,7 +215,7 @@
                       Ruby, or Node.js. They work on all layers of the application, 
                      from user interfaces to databases, enabling them to create complete and functional web solutions.
                  </p>
-                 <button class="btn btn-outline-dark">Checkout the course</button>
+                 <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"><button class="btn btn-outline-dark">Checkout the course</button></a>
 
              </div>
              <div class="col-md-4 order-md-2 order-1 ">
@@ -226,7 +223,6 @@
                  <img src="assets/Full_Stack.png" alt="" class="img-fluid"  style="width:450px; height: 280px;">
              </div>
          </div>
-
      </div>
 
      <div class="card  mb-4 p-5" id="web-sec" style="background-color: rgba(131, 94, 191, 0.3); color:white;   backdrop-filter: blur(10px); " >
@@ -245,7 +241,7 @@
                        security patches. Ensuring web security is crucial to
                       safeguard user data and maintain the integrity of online systems.
                  </p>
-                 <button class="btn btn-outline-light">Checkout the course</button>
+                 <a href="https://www.udemy.com/course/learn-bug-bounty-hunting-web-security-testing-from-scratch/"><button class="btn btn-outline-light">Checkout the course</button></a>
 
              </div>
          </div>
@@ -400,55 +396,6 @@
         </div>
       </section>
     </div>
-    <!-- =================== Course page ================
-    <div class="light-glass m-10">
-      <section>
-        <div class="content m-5">
-          <p class="heading-text"><span class="red">Courses</span></p>
-          <p style="color: white; font-size: 40px">
-            <a href="#devops"
-              ><button data-text="Awesome" class="hover-button">
-                <span class="actual-text">&nbsp;DevOps&nbsp;</span>
-                <span class="hover-text" aria-hidden="true"
-                  >&nbsp;DevOps&nbsp;</span>
-              </button></a>
-            <br />
-            <a href="#backend"
-              ><button data-text="Awesome" class="hover-button">
-                <span class="actual-text"
-                  >&nbsp;Back&nbsp;end&nbsp;Development&nbsp;</span
-                >
-                <span class="hover-text" aria-hidden="true"
-                  >&nbsp;Back&nbsp;end&nbsp;Development&nbsp;</span
-                >
-              </button></a
-            ><br />
-            <a href="#web"
-              ><button data-text="Awesome" class="hover-button">
-                <span class="actual-text">&nbsp;Web&nbsp;Security&nbsp;</span>
-                <span class="hover-text" aria-hidden="true"
-                  >&nbsp;Web&nbsp;Security&nbsp;</span
-                >
-              </button></a
-            ><br />
-            <button data-text="Awesome" class="hover-button">
-              <span class="actual-text">&nbsp;Full&nbsp;Stack&nbsp;</span>
-              <span class="hover-text" aria-hidden="true"
-                >&nbsp;Full&nbsp;Stack&nbsp;</span
-              ></button
-            ><br />
-            <button data-text="Awesome" class="hover-button">
-              <span class="actual-text"
-                >&nbsp;Front&nbsp;end&nbsp;Development&nbsp;</span
-              >
-              <span class="hover-text" aria-hidden="true"
-                >&nbsp;Front&nbsp;end&nbsp;Development&nbsp;</span
-              >
-            </button>
-          </p>
-        </div>
-      </section>
-    </div> -->
   </section>
 </div>
 <br>
@@ -561,47 +508,35 @@
    <div class="form_background bg-images ">
     <div class="form-body   d-flex justify-content-center">
       <div class="row">
-
           <div class="form-holder">
             <div class="form-content">
               <div class="form-items">
                 <h3>Register Today</h3>
                 <p>Fill in the data below.</p>
-                <form class="requires-validation" novalidate="">
+                <!-- https://script.google.com/macros/s/AKfycbxb1_UyqDMOMcrd7oUboIAuxvm4JjJltPKAQUqM0FU31vTag2y4nI6QjMfwIicnPtJI/exec -->
+                <form class="requires-validation" action="https://script.google.com/macros/s/AKfycbxb1_UyqDMOMcrd7oUboIAuxvm4JjJltPKAQUqM0FU31vTag2y4nI6QjMfwIicnPtJI/exec" method="post" enctype="multipart/form-data" name="regform">
                   <div class="col-md-12">
-                    <input
-                      class="form-control"
-                      type="text"
-                      name="name"
-                      placeholder="Full Name"
-                      required=""
-                    />
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Full Name" required/>
                     <div class="valid-feedback">Username field is valid!</div>
                     <div class="invalid-feedback">
                       Username field cannot be blank!
                     </div>
                   </div>
                   <div class="col-md-12">
-                    <input
-                      class="form-control"
-                      type="email"
-                      name="email"
-                      placeholder="E-mail Address"
-                      required=""
-                    />
+                    <input class="form-control" id="email" type="email" name="email" placeholder="E-mail Address" required/>
                     <div class="valid-feedback">Email field is valid!</div>
                     <div class="invalid-feedback">
                       Email field cannot be blank!
                     </div>
                   </div>
                   <div class="col-md-12">
-                    <select class="form-select mt-3" required="">
-                      <option selected disabled value="">Interest</option>
-                      <option value="jweb">Frontend Development</option>
-                      <option value="sweb">Backend Development</option>
-                      <option value="pmanager">FullStack Development</option>
-                      <option value="pmanager">Devops</option>
-                      <option value="pmanager">Web Security</option>
+                    <select class="form-select mt-3" name="interest" onchange="showDivision(this.value)" required>
+                      <option value="">Interest</option>
+                      <option value="Front End">Frontend Development</option>
+                      <option value="Back End">Backend Development</option>
+                      <option value="Full Stack">FullStack Development</option>
+                      <option value="Dev Ops">Dev Ops</option>
+                      <option value="Web Security">Web Security</option>
                     </select>
                     <div class="valid-feedback">You selected a position!</div>
                     <div class="invalid-feedback">
@@ -609,41 +544,21 @@
                     </div>
                   </div>
                   <div class="col-md-12">
-                    <input
-                      class="form-control"
-                      type="password"
-                      name="password"
-                      placeholder="Password"
-                      required=""
-                    />
+                    <input class="form-control" id="password" type="password" name="password" placeholder="Password" minlength='8' title="one uppercase letter one lowercase letter and one digit, min 8 characters long" required/>
                     <div class="valid-feedback">Password field is valid!</div>
                     <div class="invalid-feedback">
                       Password field cannot be blank!
                     </div>
                   </div>
                   <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="invalidCheck"
-                      required=""
-                    />
-                    <label class="form-check-label"
-                      >I confirm that all data are correct</label
-                    >
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required />
+                    <label class="form-check-label">I confirm that all data are correct</label>
                     <div class="invalid-feedback">
                       Please confirm that the entered data are all correct!
                     </div>
                   </div>
                   <div class="form-button mt-4 d-flex justify-content-around">
-                    <button
-                      id="submit"
-                      type="submit"
-                      class="button btn btn-primary"
-                    >
-                      Register
-                    </button>
+                    <input type="submit" value="Submit" id="submit" class="button btn btn-primary">
                   </div>
                 </form>
               </div>
@@ -671,22 +586,17 @@
              >
       <!-- Left -->
       <div class="me-5 fs-4">
-        <span>Get connected with us on social networks:</span>
+        <span style="font-size: 30px;">Get connected with us</span>
       </div>
       <!-- Left -->
 
       <!-- Right -->
-      <div >
-
+      <div class="soc">
         <ul class="socialIcons">
           <li class="github"><a href=""><i class="fa fa-fw fa-github"></i></a></li>
           <li class="instagram"><a href=""><i class="fa fa-fw fa-instagram"></i></a></li>
           <li class="linkedin"><a href=""><i class="fa fa-fw fa-linkedin"></i></a></li>
-
         </ul>
-
-        <!-- =========== -->
-   
       </div>
       <!-- Right -->
     </section>
@@ -700,30 +610,8 @@
           <!-- Grid column -->
           <div class="col-md-3 fs-5 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold">Code Connect</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-            <p>
-              Unlock your coding potential with Code Connect's immersive and interactive learning environment. Our carefully curated courses in frontend development equip learners with the skills to craft visually captivating websites and responsive user interfaces. 
-            </p>
-
           </div>
-          <!-- Left -->
-          <!-- Right -->
           <div>
-            <ul class="socialIcons">
-              <li class="github">
-                <a href=""></a>
-              </li>
-              <li class="instagram">
-                <a href=""></a>
-              </li>
-              <li class="linkedin">
-                <a href=""></a>
-              </li>
-            </ul>
             <!-- =========== -->
           </div>
           <!-- Right -->
@@ -759,10 +647,10 @@
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
-                <p><a href="#" class="text-white">Frontend Development</a></p>
-                <p><a href="#!" class="text-white">Backend Development</a></p>
-                <p><a href="#!" class="text-white">FullStack Development</a></p>
-                <p><a href="#!" class="text-white">Web Security</a></p>
+                <p><a href="#front-end" class="text-white">Frontend Development</a></p>
+                <p><a href="#back-end" class="text-white">Backend Development</a></p>
+                <p><a href="#full-stack" class="text-white">FullStack Development</a></p>
+                <p><a href="#web-sec" class="text-white">Web Security</a></p>
               </div>
               <!-- Grid column -->
               <!-- Grid column -->
@@ -782,14 +670,14 @@
               <!-- Grid column -->
               <div class="col-md-4 fs-5 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <!-- Links -->
-                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <h6 class="text-uppercase fw-bold" id="contactUs">Contact</h6>
                 <hr
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
                 <p>Kerala, Amritapuri, India</p>
-                <p>codeconnect@gmail.com</p>
-                <p>+ 91 9821416056</p>
+                <p><a href="mailto:codeconnect@gmail.com" style="color: #fff;">codeconnect@gmail.com</a></p>
+                <p>+91-329-456-7890</p>
                 <p>+ 076 520 131</p>
               </div>
               <!-- Grid column -->
@@ -804,7 +692,7 @@
           style="background-color: rgba(0, 0, 0, 0.2)"
         >
           © 2023 Copyright:
-          <a class="text-white" href="https://google.com/">codeconnect.com</a>
+          <a class="text-white" href="index.html">codeconnect.com</a>
         </div>
         <!-- Copyright -->
       </footer>
@@ -812,5 +700,6 @@
     </div>
     <!-- End of .container -->
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </body>
 </html>

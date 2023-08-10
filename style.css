@@ -360,13 +360,15 @@ nav {
 }
 .light-glass {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-image: url("./assets/gradientTrans.png");
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   /* border-radius: 10px; */
   border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .light-glass-green {
@@ -473,11 +475,18 @@ nav {
   border-radius: 6px;
   background-color: #fff;
   font-size: 15px;
-  font-weight: 300;
-  color: #8d8d8d;
+  font-weight: 10000;
+  color: #591de2;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   margin-top: 16px;
+}
+
+.form-content input[type="text"]:focus,
+.form-content input[type="password"]:focus,
+.form-content input[type="email"]:focus,
+.form-content select:focus {
+  background-color: lightblue;
 }
 
 .form-content textarea {
@@ -572,3 +581,14 @@ nav {
   }
 }
 
+/* =======> Vighnesh CSS <======== */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: red;
+}
