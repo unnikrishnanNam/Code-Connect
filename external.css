@@ -78,7 +78,7 @@
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 30px;
+  border-radius: 21px;
   border: 2px solid rgba(255, 255, 255, 0.18);
 
   /* height: 650px; */
@@ -247,7 +247,7 @@
   --border-right: 6px;
   --text-stroke-color: rgba(255, 255, 255, 0.6);
   --animation-color: var(--primary);
-  --fs-size: 1em;
+  --fs-size: 0.9em;
   letter-spacing: 3px;
   text-decoration: none;
   font-size: var(--fs-size);
